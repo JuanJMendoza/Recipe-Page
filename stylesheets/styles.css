@@ -12,14 +12,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
   background-color: #f3e5d7;
   margin: 128px;
 }
 img {
   width: 656px;
   height: 300px;
-  /* overflow: hidden; */
   border-radius: 12px;
 }
 .menu {
@@ -72,9 +70,9 @@ h2 {
 .prep-time-content h2 {
   color: #7a284e;
   padding-bottom: 16px;
+  font-size: 20px;
 }
 .prep-time-content ul li::marker {
-  /* font-weight: bold; */
   color: #7a284e;
 }
 ul,
@@ -82,7 +80,6 @@ ol {
   margin-left: 24px;
 }
 ul li::marker {
-  /* font-weight: bold; */
   color: #854632;
 }
 ol li::marker {
@@ -107,7 +104,6 @@ li {
 }
 .nutrition-table {
   border-collapse: separate;
-  /* border-spacing: 0 12px; */
   width: 100%;
 }
 .nutrition-content p {
