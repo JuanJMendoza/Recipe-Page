@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0px;
+  line-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f3e5d7;
+  margin: 48px;
+}
+img {
+  width: 656px;
+  height: 300px;
+  /* overflow: hidden; */
+  border-radius: 12px;
+}
+.menu {
+  width: 736px;
+  height: 1700px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 24px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+section,
+.line-divider {
+  margin-top: 32px;
+}
+.text {
+  margin-top: 40px;
+  color: #5f564d;
+}
+.title {
+  font-size: 40px;
+  color: #312e2c;
+}
+h2 {
+  color: #854632;
+  font-size: 28px;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-style: normal;
+  padding-bottom: 24px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.prep-time-content {
+  background-color: #fff7fb;
+  padding: 24px;
+  border-radius: 12px;
+}
+.prep-time-content h2 {
+  color: #7a284e;
+  padding-bottom: 16px;
+}
+.prep-time-content ul li::marker {
+  /* font-weight: bold; */
+  color: #7a284e;
+}
+ul,
+ol {
+  margin-left: 24px;
+}
+ul li::marker {
+  /* font-weight: bold; */
+  color: #854632;
+}
+ol li::marker {
+  font-weight: bold;
+  color: #854632;
+}
+li:not(:last-child) {
+  margin-bottom: 8px;
+}
+li {
+  padding-left: 16px;
+}
+p,
+li {
+  line-height: 150%;
+  font-weight: 400;
+}
+.line-divider {
+  border-width: 1px;
+  border-top-style: solid;
+  border-color: #e3ddd7;
+}
+.nutrition-table {
+  border-collapse: separate;
+  /* border-spacing: 0 12px; */
+  width: 100%;
+}
+.nutrition-content p {
+  padding-bottom: 24px;
+}
+th {
+  font-weight: 400;
+}
+td {
+  font-weight: bold;
+  color: #854632;
+}
+th,
+td {
+  border-bottom: 1px solid #e3ddd7;
+  padding-left: 32px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  width: 50%;
+  text-align: left;
+}
+tr:first-child th,
+tr:first-child td {
+  padding-top: 0px;
+}
+tr:last-child th,
+tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
