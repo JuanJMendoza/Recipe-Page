@@ -8,11 +8,12 @@
   line-height: 100%;
 }
 body {
+  --stone-100: hsl(30, 54%, 90%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f3e5d7;
+  background-color: var(--stone-100);
   margin: 128px;
 }
 img {
@@ -21,9 +22,16 @@ img {
   border-radius: 12px;
 }
 .menu {
+  --white: hsl(0, 0%, 100%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
   width: 736px;
   height: 1700px;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 40px;
   border-radius: 24px;
 }
@@ -40,14 +48,14 @@ section,
 }
 .text {
   margin-top: 40px;
-  color: #5f564d;
+  color: var(--stone-600);
 }
 .title {
   font-size: 40px;
-  color: #312e2c;
+  color: var(--stone-900);
 }
 h2 {
-  color: #854632;
+  color: var(--brown-800);
   font-size: 28px;
 }
 h1,
@@ -63,28 +71,28 @@ h2 {
   letter-spacing: 0px;
 }
 .prep-time-content {
-  background-color: #fff7fb;
+  background-color: var(--rose-50);
   padding: 24px;
   border-radius: 12px;
 }
 .prep-time-content h2 {
-  color: #7a284e;
+  color: var(--rose-800);
   padding-bottom: 16px;
   font-size: 20px;
 }
 .prep-time-content ul li::marker {
-  color: #7a284e;
+  color: var(--rose-800);
 }
 ul,
 ol {
   margin-left: 24px;
 }
 ul li::marker {
-  color: #854632;
+  color: var(--brown-800);
 }
 ol li::marker {
   font-weight: bold;
-  color: #854632;
+  color: var(--brown-800);
 }
 li:not(:last-child) {
   margin-bottom: 8px;
@@ -100,7 +108,7 @@ li {
 .line-divider {
   border-width: 1px;
   border-top-style: solid;
-  border-color: #e3ddd7;
+  border-color: var(--stone-150);
 }
 .nutrition-table {
   border-collapse: collapse;
@@ -115,12 +123,12 @@ th {
 }
 td {
   font-weight: bold;
-  color: #854632;
+  color: var(--brown-800);
   padding-left: 16px;
 }
 th,
 td {
-  border-bottom: 1px solid #e3ddd7;
+  border-bottom: 1px solid var(--stone-150);
   padding-bottom: 12px;
   padding-top: 12px;
   width: 50%;
