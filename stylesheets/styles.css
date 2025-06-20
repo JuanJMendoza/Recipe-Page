@@ -133,6 +133,7 @@ td {
   padding-top: 12px;
   width: 50%;
   text-align: left;
+  line-height: 150%;
 }
 tr:first-child th,
 tr:first-child td {
